@@ -1,0 +1,29 @@
+#shortgpt-output {
+}
+
+#shortgpt-row-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#shortgpt-row-2 {
+    display: flex;
+    align-items: center;
+}
+
+#shortgpt-row-1-img {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+#shortgpt-row-1-p {
+    font-size: 15px;
+}
+
+#shortgpt-row-2-img {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+#shortgpt-row-2-p {
+    
+}

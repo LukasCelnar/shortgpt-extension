@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "ShortGPT",
+    "description": "Make ChatGPT responses fast and consize",
+    "version": "0.0.1",
+    "action": {
+        "default_icon": {
+            "16": "/images/16.png",
+            "48": "/images/48.png",
+            "128": "/images/128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/16.png",
+        "48": "/images/48.png",
+        "128": "/images/128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://chat.openai.com/*"],
+            "js": ["contentScript.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}
